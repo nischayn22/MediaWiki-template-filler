@@ -2,3 +2,6 @@ MediaWiki-template-filler
 =========================
 
 Library to help fill a MediaWiki Template and export resulting wikitext.
+
+
+Just download and execute index.php to see live.
