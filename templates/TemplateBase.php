@@ -39,7 +39,9 @@ class TemplateBase{
 				echo "TemplateBase::makeTextFromKeyValue:: Ignoring $key as value was empty\n";
 				continue;
 			}
-	       		$this->mText .= '|';
+                        // preg_replace goes here
+                        // $value = preg_replace( '/<a.*href="(.+?)">.*<\/a>/i', $link, $matches );
+	       		$this->mText .= "\n|";
 	       		$this->mText .= $key;
 	       		$this->mText .= '=';
 	       		$this->mText .= $value;
